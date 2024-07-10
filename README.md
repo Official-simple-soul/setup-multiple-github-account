@@ -60,6 +60,14 @@ Generating SSH key for user2 using email user2@example.com...
 All specified GitHub accounts have been configured.
 ```
 
+# Cloning a repository after setup
+
+- Use below code format to clone a respository for either of the account that you have just configured
+
+```bash
+git clone github.com-user1:repository_account/repository_name.git
+```
+
 # Notes
 
 - The script will generate an SSH key for each GitHub account and add a corresponding entry to your ~/.ssh/config file.
